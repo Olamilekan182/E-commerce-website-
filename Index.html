@@ -1,1 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ✅ Meta tags -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="E-commerceElite — Premium, modern, and responsive e-commerce platform for luxury and everyday shopping." />
+  <meta name="keywords" content="ecommerce, online store, fashion, tech, modern UI, responsive design, buy online" />
+  <meta name="author" content="E-commerceElite Team" />
 
+  <!-- ✅ Title -->
+  <title>E-commerceElite | Premium Online Shopping Platform</title>
+
+  <!-- ✅ Favicon -->
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
+
+  <!-- ✅ Web fonts (optional) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ✅ Open Graph (for SEO/social sharing) -->
+  <meta property="og:title" content="E-commerceElite – Premium Online Store" />
+  <meta property="og:description" content="Shop premium products with modern design and unbeatable deals." />
+  <meta property="og:image" content="assets/images/preview.jpg" />
+  <meta property="og:url" content="https://www.ecommerceelite.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+
+</head>
+
+<body>
+
+
+<!-- Header Section -->
+
+<header class="ecelite-header" role="banner">
+
+  <!-- Top Utility Bar -->
+  <div class="ecelite-topbar">
+    <div class="ecelite-container">
+      <div class="ecelite-topbar-left">
+        <span class="ecelite-top-offer">Free shipping on orders over $50!</span>
+      </div>
+      <div class="ecelite-topbar-right">
+        <div class="ecelite-lang-currency">
+          <select aria-label="Select Language" class="ecelite-lang-select">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+          </select>
+          <select aria-label="Select Currency" class="ecelite-currency-select">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+          </select>
+        </div>
+        <button class="ecelite-theme-toggle" aria-label="Toggle Dark Mode">
+          <svg xmlns="http://www.w3.org/2000/svg" class="ecelite-icon ecelite-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M17.36 17.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M17.36 6.64l1.42-1.42" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <div class="ecelite-main-header">
+    <div class="ecelite-container">
+      
+      <!-- Logo -->
+      <div class="ecelite-logo">
+        <a href="/" aria-label="E-commerceElite Home">
+          <img src="photo/images1.jpeg" alt="E-commerceElite Logo" class="ecelite-logo-img">
+        </a>
+      </div>
+
+      <!-- ✅ Mobile Hamburger Menu (moved outside of header-actions) -->
+      <button class="ecelite-hamburger" aria-label="Menu" aria-expanded="false" aria-controls="ecelite-mobile-nav">
+        <svg xmlns="http://www.w3.org/2000/svg" class="ecelite-icon ecelite-icon-hamburger" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+
+      <!-- Navigation Menu -->
+      <nav class="ecelite-nav" role="navigation" aria-label="Main Navigation">
+        <ul class="ecelite-nav-list">
+          <li class="ecelite-nav-item">
+            <a href="#" class="ecelite-nav-link">Home</a>
+          </li>
+          <li class="ecelite-nav-item ecelite-has-dropdown">
+            <a href="#" class="ecelite-nav-link" aria-haspopup="true" aria-expanded="false">Shop</a>
+            <div class="ecelite-dropdown">
+              <div class="ecelite-mega-menu">
+                <div>
+                  <h4>Categories</h4>
+                  <ul>
+                    <li><a href="#">Men's Wear</a></li>
+                    <li><a href="#">Women's Wear</a></li>
+                    <li><a href="#">Electronics</a></li>
+                    <li><a href="#">Accessories</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h4>Popular</h4>
+                  <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Clearance</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="ecelite-nav-item">
+            <a href="#" class="ecelite-nav-link">About Us</a>
+          </li>
+          <li class="ecelite-nav-item">
+            <a href="#" class="ecelite-nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header Action Icons -->
+      <div class="ecelite-header-actions">
+        
+        <!-- Search -->
+        <div class="ecelite-search">
+          <input type="text" placeholder="Search products..." aria-label="Search Products" class="ecelite-search-input" />
+          <button class="ecelite-search-btn" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" class="ecelite-icon ecelite-icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+          </button>
+          <div class="ecelite-search-suggestions" aria-live="polite"></div>
+        </div>
+
+        <!-- Wishlist -->
+        <button class="ecelite-action-btn" aria-label="Wishlist">
+          <svg xmlns="http://www.w3.org/2000/svg" class="ecelite-icon ecelite-icon-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z" />
+          </svg>
+          <span class="ecelite-badge">2</span>
+        </button>
+
+        <!-- Cart -->
+        <button class="ecelite-action-btn" aria-label="Shopping Cart" id="ecelite-cart-toggle">
+          <svg xmlns="http://www.w3.org/2000/svg" class="ecelite-icon ecelite-icon-cart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1" />
+            <circle cx="20" cy="21" r="1" />
+            <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61l1.38-7.39H6" />
+          </svg>
+          <span class="ecelite-badge">3</span>
+        </button>
+
+<!-- Profile Container -->
+<div class="ecelite-profile-container">
+
+  <!-- Profile Button -->
+  <button class="ecelite-action-btn" aria-label="Account" aria-haspopup="true" aria-expanded="false" id="profile-button">
+    <svg xmlns="http://www.w3.org/2000/svg" class="ecelite-icon ecelite-icon-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="12" cy="7" r="4" />
+      <path d="M5.5 21a7.5 7.5 0 0113 0" />
+    </svg>
+  </button>
+
+  <!-- Profile Dropdown Menu -->
+  <ul class="ecelite-profile-dropdown" aria-label="Profile menu" role="menu">
+    <li role="menuitem"><a href="#">Settings</a></li>
+    <li role="menuitem"><a href="#">Login / Register</a></li>
+    <li role="menuitem"><a href="#">Sign out</a></li>
+  </ul>
+
+</div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div id="ecelite-mobile-nav" class="ecelite-mobile-nav" aria-hidden="true">
+    <ul class="ecelite-mobile-nav-list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Login / Register</a></li>
+    </ul>
+  </div>
+
+</header>
+
+
+
+<!-- HERO SECTION: E-commerceElite -->
+<section class="ee-hero" aria-labelledby="ee-hero-heading">
+  <div class="ee-hero__container">
+    
+    <!-- Hero Content -->
+    <div class="ee-hero__content">
+      <span class="ee-hero__badge">🔥 Limited Time Offer</span>
+      <h1 id="ee-hero-heading" class="ee-hero__headline">
+        Discover Premium Fashion at Unbeatable Prices
+      </h1>
+      <p class="ee-hero__subtext">
+        Explore our curated collection of top-tier styles, all with free shipping and 24/7 support.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="ee-hero__cta">
+        <a href="#shop" class="ee-btn ee-btn--primary">Shop Now</a>
+        <a href="#features" class="ee-btn ee-btn--secondary">Learn More</a>
+      </div>
+
+      <!-- Trust Signals -->
+      <div class="ee-hero__trust">
+        <div class="ee-hero__trust-item">
+          <img src="photo/images2.png" alt="" />
+          <span>Free Shipping</span>
+        </div>
+        <div class="ee-hero__trust-item">
+          <img src="photo/images3.png" alt="" />
+          <span>Secure Checkout</span>
+        </div>
+        <div class="ee-hero__trust-item">
+          <img src="photo/images4.png" alt="" />
+          <span>Rated 4.9/5 by 10k+ users</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Image / Product Showcase -->
+    <div class="ee-hero__image">
+      <picture>
+        <source srcset="photo/images5.jpeg" type="image/webp">
+        <img src="assets/images/hero-product.jpg" alt="Featured Fashion Collection" loading="lazy">
+      </picture>
+
+      <!-- Countdown Timer -->
+      <div class="ee-hero__timer" role="region" aria-label="Flash Sale Timer">
+        <p>Flash Sale Ends In:</p>
+        <div class="ee-timer" id="ee-timer">
+          <span><strong id="ee-hours">00</strong>h</span>
+          <span><strong id="ee-minutes">00</strong>m</span>
+          <span><strong id="ee-seconds">00</strong>s</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Promo Banner / Carousel -->
+  <div class="ee-hero__promo">
+    <div class="ee-promo-ticker">
+      <span>💥 25% OFF Today Only &nbsp; | &nbsp; Free Returns for 30 Days &nbsp; | &nbsp; New Arrivals Dropping Weekly</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- =============================== -->
+<!-- Product Search & Filters Section -->
+<!-- E-commerceElite - Home Page -->
+<!-- =============================== -->
+
+<section class="ee-filters-section" aria-label="Product Search and Filters">
+  <div class="ee-filters-container">
+    <!-- Search Bar -->
+    <div class="ee-search-bar" role="search" aria-label="Product Search">
+      <input type="search" id="eeProductSearch" class="ee-search-input" placeholder="Search for products, brands..." aria-label="Search products">
+      <button type="button" class="ee-search-btn" aria-label="Search">
+        🔍
+      </button>
+    </div>
+
+    <!-- Filters & Products Layout -->
+    <div class="ee-filters-layout">
+
+      <!-- Filters Sidebar -->
+      <aside class="ee-filters-sidebar" aria-label="Filter Options">
+        <form id="eeFiltersForm">
+          <!-- Category Filter -->
+          <fieldset class="ee-filter-group">
+            <legend>Category</legend>
+            <label><input type="checkbox" name="category" value="shoes"> Shoes</label>
+            <label><input type="checkbox" name="category" value="clothing"> Clothing</label>
+            <label><input type="checkbox" name="category" value="accessories"> Accessories</label>
+          </fieldset>
+
+          <!-- Price Filter -->
+          <fieldset class="ee-filter-group">
+            <legend>Price Range</legend>
+            <div class="ee-price-slider">
+              <input type="range" min="0" max="1000" value="100" id="priceMin" name="priceMin">
+              <input type="range" min="0" max="1000" value="500" id="priceMax" name="priceMax">
+              <div class="ee-price-values">
+                <span id="eePriceMinLabel">$100</span> - <span id="eePriceMaxLabel">$500</span>
+              </div>
+            </div>
+          </fieldset>
+
+          <!-- Brand Filter -->
+          <fieldset class="ee-filter-group">
+            <legend>Brand</legend>
+            <label><input type="checkbox" name="brand" value="nike"> Nike</label>
+            <label><input type="checkbox" name="brand" value="adidas"> Adidas</label>
+            <label><input type="checkbox" name="brand" value="puma"> Puma</label>
+          </fieldset>
+
+          <!-- Ratings Filter -->
+          <fieldset class="ee-filter-group">
+            <legend>Ratings</legend>
+            <label><input type="radio" name="rating" value="4"> 4 stars & up</label>
+            <label><input type="radio" name="rating" value="3"> 3 stars & up</label>
+            <label><input type="radio" name="rating" value="2"> 2 stars & up</label>
+          </fieldset>
+
+          <!-- Filter Actions -->
+          <div class="ee-filter-actions">
+            <button type="submit" class="ee-apply-btn">Apply Filters</button>
+            <button type="reset" class="ee-clear-btn">Clear All</button>
+          </div>
+        </form>
+      </aside>
+
+      <!-- Product Grid Area -->
+      <div class="ee-product-area">
+        <!-- Top Controls -->
+        <div class="ee-product-controls">
+          <div class="ee-filter-tags" aria-label="Active Filters">
+            <!-- Filter tags appear dynamically -->
+          </div>
+          <div class="ee-sort-control">
+            <label for="eeSortSelect">Sort by:</label>
+            <select id="eeSortSelect" name="sort">
+              <option value="popularity">Popularity</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="newest">Newest</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Results Count -->
+        <div class="ee-results-count" aria-live="polite">Found <span id="eeResultsNumber">120</span> products</div>
+
+        <!-- Product Grid -->
+        <div class="ee-product-grid" aria-label="Filtered Products">
+          <!-- Product cards will be dynamically rendered here -->
+        </div>
+
+        <!-- Skeleton Loader Template (hidden initially) -->
+        <template id="eeSkeletonTemplate">
+          <div class="ee-product-skeleton">
+            <div class="ee-skeleton-img"></div>
+            <div class="ee-skeleton-text"></div>
+            <div class="ee-skeleton-text short"></div>
+          </div>
+        </template>
+
+      </div> <!-- /.ee-product-area -->
+
+    </div> <!-- /.ee-filters-layout -->
+  </div> <!-- /.ee-filters-container -->
+</section>
+
+
+<!-- Featured Selection Section for E-commerceElite -->
+<section 
+  class="ee-featured-selection" 
+  aria-labelledby="ee-featured-heading" 
+  role="region"
+>
+  <header class="ee-featured-selection__header">
+    <h2 id="ee-featured-heading" class="ee-featured-selection__title">
+      Featured Products
+    </h2>
+    <!-- Optional filter/sort controls (can be enhanced with JS later) -->
+    <nav aria-label="Featured products filters" class="ee-featured-selection__filters" role="navigation">
+      <button class="ee-featured-selection__filter-btn" aria-pressed="true" aria-controls="ee-featured-list" data-filter="all">
+        All
+      </button>
+      <button class="ee-featured-selection__filter-btn" aria-pressed="false" aria-controls="ee-featured-list" data-filter="new">
+        New
+      </button>
+      <button class="ee-featured-selection__filter-btn" aria-pressed="false" aria-controls="ee-featured-list" data-filter="sale">
+        Sale
+      </button>
+      <button class="ee-featured-selection__filter-btn" aria-pressed="false" aria-controls="ee-featured-list" data-filter="bestseller">
+        Best Seller
+      </button>
+    </nav>
+  </header>
+
+  <!-- Products List -->
+  <ul class="ee-featured-selection__list" id="ee-featured-list" role="list" tabindex="0">
+    <!-- Example Product Item -->
+    <li class="ee-featured-selection__item" role="listitem" tabindex="-1">
+      <article class="ee-product-card" aria-labelledby="ee-product-1-title" aria-describedby="ee-product-1-desc">
+        <figure class="ee-product-card__image-wrapper">
+          <picture>
+            <source srcset="photo/images6.jpeg" type="image/webp" media="(max-width: 480px)">
+            <source srcset="photo/images6.jpeg" type="image/webp" media="(min-width: 481px)">
+            <img 
+              src="photo/images6.jpeg" 
+              alt="Classic Leather Sneakers" 
+              loading="lazy" 
+              width="400" 
+              height="400" 
+              class="ee-product-card__image"
+            >
+          </picture>
+          <figcaption class="ee-product-card__badges" aria-hidden="true">
+            <span class="ee-badge ee-badge--new" aria-label="New Product">New</span>
+          </figcaption>
+        </figure>
+
+        <div class="ee-product-card__content">
+          <h3 id="ee-product-1-title" class="ee-product-card__title">Classic Leather Sneakers</h3>
+          <p id="ee-product-1-desc" class="ee-product-card__description">Handcrafted from premium leather for ultimate comfort.</p>
+          <p class="ee-product-card__price" aria-label="Price $129.99">$129.99</p>
+
+          <div class="ee-product-card__actions">
+            <button type="button" class="ee-btn ee-btn--primary" aria-label="Add Classic Leather Sneakers to cart">
+              Add to Cart
+            </button>
+            <button type="button" class="ee-btn ee-btn--secondary" aria-haspopup="dialog" aria-controls="ee-quickview-1" aria-label="Quick view Classic Leather Sneakers">
+              Quick View
+            </button>
+          </div>
+        </div>
+      </article>
+    </li>
+
+    <!-- Repeat Product Items Here - minimal example, to be populated dynamically or expanded -->
+  </ul>
+
+  <!-- Quick View Modal Template (hidden by default, JS controlled) -->
+  <div 
+    class="ee-quickview-modal" 
+    role="dialog" 
+    aria-modal="true" 
+    aria-labelledby="ee-quickview-title" 
+    aria-describedby="ee-quickview-desc" 
+    id="ee-quickview-1" 
+    tabindex="-1" 
+    hidden
+  >
+    <div class="ee-quickview-modal__content">
+      <button type="button" class="ee-quickview-modal__close" aria-label="Close quick view">&times;</button>
+      <h3 id="ee-quickview-title" class="ee-quickview-modal__title">Classic Leather Sneakers</h3>
+      <p id="ee-quickview-desc" class="ee-quickview-modal__description">
+        Detailed description and multiple images go here for quick product glance.
+      </p>
+      <!-- Product images carousel or gallery placeholder -->
+      <div class="ee-quickview-modal__gallery" aria-live="polite"></div>
+      <button type="button" class="ee-btn ee-btn--primary">
+        Add to Cart
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<!-- Category Highlights Section - E-commerceElite -->
+<section class="ee-category-highlights" aria-labelledby="ee-category-heading">
+  <div class="ee-container">
+    <header class="ee-category-header">
+      <h2 id="ee-category-heading" class="ee-category-title">Explore Our Top Categories</h2>
+      <p class="ee-category-subtitle">Handpicked collections curated just for you</p>
+    </header>
+
+    <div class="ee-category-grid">
+
+      <!-- Category Card 1 -->
+      <article class="ee-category-card" tabindex="0" aria-labelledby="ee-cat-electronics">
+        <div class="ee-card-image-wrapper">
+          <img src="photo/images7.jpeg" alt="Shop Electronics" loading="lazy" class="ee-card-image" />
+          <span class="ee-badge">Only 3 left!</span>
+        </div>
+        <div class="ee-card-content">
+          <h3 id="ee-cat-electronics" class="ee-card-title">Electronics</h3>
+          <p class="ee-card-description">Latest gadgets, phones & smart devices</p>
+          <button class="ee-card-cta" aria-label="Shop Electronics">Shop Now</button>
+          <div class="ee-progress-hover"></div>
+        </div>
+      </article>
+
+      <!-- Category Card 2 -->
+      <article class="ee-category-card" tabindex="0" aria-labelledby="ee-cat-fashion">
+        <div class="ee-card-image-wrapper">
+          <img src="photo/images8.jpeg" alt="Shop Fashion" loading="lazy" class="ee-card-image" />
+          <span class="ee-badge">Trending</span>
+        </div>
+        <div class="ee-card-content">
+          <h3 id="ee-cat-fashion" class="ee-card-title">Fashion</h3>
+          <p class="ee-card-description">Stylish clothing for men, women & kids</p>
+          <button class="ee-card-cta" aria-label="Shop Fashion">Shop Now</button>
+          <div class="ee-progress-hover"></div>
+        </div>
+      </article>
+
+      <!-- Category Card 3 -->
+      <article class="ee-category-card" tabindex="0" aria-labelledby="ee-cat-home">
+        <div class="ee-card-image-wrapper">
+          <img src="photo/images9.jpeg" alt="Shop Home Essentials" loading="lazy" class="ee-card-image" />
+          <span class="ee-badge">New Arrival</span>
+        </div>
+        <div class="ee-card-content">
+          <h3 id="ee-cat-home" class="ee-card-title">Home Essentials</h3>
+          <p class="ee-card-description">Furniture, decor & daily essentials</p>
+          <button class="ee-card-cta" aria-label="Shop Home Essentials">Shop Now</button>
+          <div class="ee-progress-hover"></div>
+        </div>
+      </article>
+
+      <!-- Category Card 4 -->
+      <article class="ee-category-card" tabindex="0" aria-labelledby="ee-cat-beauty">
+        <div class="ee-card-image-wrapper">
+          <img src="photo/images10.jpeg" alt="Shop Beauty" loading="lazy" class="ee-card-image" />
+          <span class="ee-badge">Editor’s Pick</span>
+        </div>
+        <div class="ee-card-content">
+          <h3 id="ee-cat-beauty" class="ee-card-title">Beauty & Skincare</h3>
+          <p class="ee-card-description">Glow-up essentials from top brands</p>
+          <button class="ee-card-cta" aria-label="Shop Beauty">Shop Now</button>
+          <div class="ee-progress-hover"></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<!-- End of Category Highlights Section -->
+
+
+
+<section class="elite-best-sellers" aria-labelledby="bestSellersHeading">
+  <div class="elite-best-sellers__container">
+    
+    <!-- Section Header -->
+    <div class="elite-best-sellers__header">
+      <h2 id="bestSellersHeading" class="elite-best-sellers__title">
+        🔥 Best Selling Products
+      </h2>
+      <p class="elite-best-sellers__subtitle">
+        Discover the most loved products hand-picked by our customers.
+      </p>
+    </div>
+
+    <!-- Filters / Sorting Controls (future JavaScript enhancement) -->
+    <div class="elite-best-sellers__controls" aria-label="Product filters">
+      <button class="elite-best-sellers__filter-btn" aria-pressed="false">All</button>
+      <button class="elite-best-sellers__filter-btn" aria-pressed="false">Top Rated</button>
+      <button class="elite-best-sellers__filter-btn" aria-pressed="false">On Sale</button>
+      <button class="elite-best-sellers__filter-btn" aria-pressed="false">Limited Stock</button>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="elite-best-sellers__grid" role="list">
+      
+      <!-- Product Card Template -->
+      <article class="elite-product-card" role="listitem">
+        <figure class="elite-product-card__media">
+          <img
+            src="photo/images11.jpeg"
+            srcset="photo/images11.jpeg 480w, photo/images11.jpeg 800w"
+            sizes="(max-width: 600px) 100vw, 33vw"
+            alt="Smart Noise Cancelling Headphones"
+            class="elite-product-card__image"
+            loading="lazy"
+          />
+          <div class="elite-product-card__badge">Best Seller</div>
+          <button class="elite-product-card__wishlist" aria-label="Add to wishlist">
+            ♥
+          </button>
+        </figure>
+
+        <div class="elite-product-card__details">
+          <h3 class="elite-product-card__name">Smart Noise Cancelling Headphones</h3>
+          <p class="elite-product-card__category">Electronics</p>
+          <div class="elite-product-card__rating" aria-label="Rated 4.5 out of 5 stars">
+            ★★★★☆ <span class="elite-product-card__reviews">(89)</span>
+          </div>
+          <div class="elite-product-card__price">
+            <span class="elite-product-card__price--new">$149.99</span>
+            <span class="elite-product-card__price--old">$199.99</span>
+          </div>
+          <button class="elite-product-card__cart-btn" aria-label="Add Smart Noise Cancelling Headphones to cart">
+            Add to Cart
+          </button>
+        </div>
+
+        <!-- Quick View Modal Trigger -->
+        <button class="elite-product-card__quick-view" aria-label="Quick view of product">
+          Quick View
+        </button>
+      </article>
+
+      <!-- Repeat other cards here -->
+
+    </div>
+
+    <!-- View More -->
+    <div class="elite-best-sellers__more">
+      <button class="elite-best-sellers__view-all-btn">
+        View All Best Sellers →
+      </button>
+    </div>
+    
+  </div>
+</section>
+
+
+<!-- Flash Sale / Limited-Time Offers Section -->
+<section class="flash-sale-section" aria-labelledby="flash-sale-heading" role="region">
+  <div class="flash-sale-container">
+    <!-- Header -->
+    <div class="flash-sale-header">
+      <div class="flash-sale-icon" aria-hidden="true">
+        <!-- Fire Icon SVG -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="icon">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3C7 8 11 14 11 14s-4 2-4 6c0 3 3 5 5 5s5-2 5-5c0-4-4-6-4-6s4-6-1-11z" />
+        </svg>
+      </div>
+      <div class="flash-sale-texts">
+        <h2 id="flash-sale-heading">🔥 Flash Sale: Limited-Time Offers</h2>
+        <p class="flash-sale-subtext">Grab the hottest deals before the time runs out!</p>
+      </div>
+      <!-- Countdown Timer -->
+      <div class="flash-sale-timer" aria-live="polite">
+        <span class="timer-label">Ends In:</span>
+        <div class="countdown" id="flash-sale-countdown">
+          <span class="digit" id="hours">00</span>:<span class="digit" id="minutes">00</span>:<span class="digit" id="seconds">00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Carousel -->
+    <div class="flash-sale-carousel">
+      <!-- Product Card Example -->
+      <div class="flash-sale-card">
+        <div class="product-image-wrapper">
+          <img src="photo/images12.jpeg" alt="Wireless Headphones" loading="lazy" class="product-image" />
+          <div class="discount-badge">50% OFF</div>
+        </div>
+        <div class="product-info">
+          <h3 class="product-title">Wireless Headphones</h3>
+          <div class="price-section">
+            <span class="current-price">$49</span>
+            <span class="original-price">$99</span>
+          </div>
+          <div class="stock-status stock-low">Only 3 left!</div>
+          <div class="rating-stars" aria-label="Rated 4.5 out of 5 stars">
+            ★★★★☆
+          </div>
+          <div class="flash-sale-actions">
+            <button class="btn buy-now">Buy Now</button>
+            <button class="btn add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more cards dynamically via JS or repeat manually -->
+
+    </div>
+
+    <!-- See All Deals Button -->
+    <div class="flash-sale-footer">
+      <a href="/flash-deals" class="see-all-deals">See All Deals →</a>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<!-- Promotional Banner / CTA Section - E-commerceElite -->
+<section class="ee-banner-hero">
+  <div class="ee-banner-container">
+    <!-- Left Content -->
+    <div class="ee-banner-content">
+      <div class="ee-offer-badge" aria-label="Limited Time Offer">
+        <span>🔥 50% OFF Today Only</span>
+      </div>
+      <h1 class="ee-banner-title">
+        Elevate Your Style with <span class="ee-highlight">E-commerceElite</span>
+      </h1>
+      <p class="ee-banner-subtitle">
+        Discover premium products, exclusive deals, and next-level shopping experience. Shop smarter, live better.
+      </p>
+      <div class="ee-banner-ctas">
+        <a href="#shop-now" class="ee-cta-btn primary" role="button">Shop Now</a>
+        <a href="#deals" class="ee-cta-btn secondary" role="button">View Deals</a>
+      </div>
+      <div class="ee-trust-icons" aria-label="Trusted by 1M+ users">
+        <img src="photo/images17.png" alt="Secure Checkout" />
+        <img src="photo/images18.png" alt="Fast Shipping" />
+        <img src="photo/images16.png" alt="5-Star Reviews" />
+      </div>
+      <!-- Countdown Timer -->
+      <div class="ee-banner-timer" role="status" aria-live="polite">
+        <span class="ee-timer-label">Deal ends in:</span>
+        <span class="ee-timer" id="ee-countdown">00h : 00m : 00s</span>
+      </div>
+    </div>
+
+    <!-- Right Image/Visual -->
+    <div class="ee-banner-image">
+      <picture>
+        <source srcset="photo/images13.jpeg" type="image/webp" />
+        <img src="photo/images13.jpeg" alt="Featured Products" loading="lazy" />
+      </picture>
+    </div>
+  </div>
+
+  <!-- Background Effects -->
+  <div class="ee-banner-background">
+    <div class="ee-shape shape-1"></div>
+    <div class="ee-shape shape-2"></div>
+    <div class="ee-ambient-particles"></div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Modal for Bonus Offer (Optional enhancement) -->
+<div class="ee-modal" id="ee-offer-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+  <div class="ee-modal-content">
+    <h2 id="modal-title">🎉 Surprise Deal Inside!</h2>
+    <p>Use code <strong>ELITE20</strong> for an extra 20% OFF — only valid for the next 15 minutes.</p>
+    <button class="ee-copy-btn" aria-label="Copy discount code to clipboard">Copy Code</button>
+    <button class="ee-close-btn" aria-label="Close bonus offer modal">Close</button>
+  </div>
+</div>
+
+
+
+
+<section class="ee-testimonials-section" aria-label="Customer Testimonials">
+  <div class="ee-testimonials-container">
+    <!-- Section Header -->
+    <div class="ee-testimonials-header">
+      <h2 class="ee-testimonials-title">What Our Customers Are Saying</h2>
+      <p class="ee-testimonials-subtitle">Real stories from verified buyers across the world</p>
+    </div>
+
+    <!-- Testimonial Cards Wrapper -->
+    <div class="ee-testimonials-cards-wrapper">
+      <!-- Testimonial Card -->
+      <article class="ee-testimonial-card" itemscope itemtype="https://schema.org/Review">
+        <div class="ee-testimonial-avatar">
+          <img src="photo/images14.jpg" alt="Photo of Jane Doe" width="80" height="80" loading="lazy" />
+        </div>
+        <div class="ee-testimonial-content">
+          <p class="ee-testimonial-text" itemprop="reviewBody">
+            “Absolutely love the product! Delivery was fast, and the quality is top-notch. I’ll definitely be ordering again.”
+          </p>
+          <div class="ee-testimonial-rating" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+            <meta itemprop="worstRating" content="1" />
+            <meta itemprop="bestRating" content="5" />
+            <meta itemprop="ratingValue" content="5" />
+            <span>★★★★★</span>
+          </div>
+          <div class="ee-testimonial-user-info">
+            <strong class="ee-testimonial-name" itemprop="author" itemscope itemtype="https://schema.org/Person">
+              <span itemprop="name">Jane Doe</span>
+            </strong>
+            <span class="ee-testimonial-verified">Verified Buyer</span>
+          </div>
+          <div class="ee-testimonial-date">Reviewed on July 20, 2025</div>
+        </div>
+      </article>
+
+      <!-- Duplicate the card above for multiple testimonials -->
+    </div>
+
+    <!-- Additional Enhancements -->
+    <div class="ee-testimonials-enhancements">
+      <div class="ee-testimonials-summary">
+        <strong>⭐ 4.9/5 average rating</strong> — Customers love our quality, delivery speed, and support.
+      </div>
+      <div class="ee-testimonials-stats">
+        <span>1,230+ verified reviews in the past 30 days</span>
+      </div>
+    </div>
+
+    <!-- See All Reviews Button -->
+    <div class="ee-testimonials-button-wrapper">
+      <a href="#" class="ee-testimonials-btn">Read All Reviews</a>
+    </div>
+
+    <!-- Optional: Trust Badges Carousel -->
+    <div class="ee-trust-badges-carousel">
+      <img src="photo/images15.png" alt="Trustpilot" loading="lazy" />
+      <img src="photo/images16.png" alt="Google Reviews" loading="lazy" />
+      <img src="photo/images17.png" alt="Verified Purchase" loading="lazy" />
+      <!-- Add more badges/logos as needed -->
+    </div>
+
+    <!-- Optional: Video Testimonial (Featured) -->
+    <div class="ee-testimonials-video">
+      <video controls poster="video-poster.jpg">
+        <source src="customer-review.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <!-- Optional: Voice Review Button -->
+    <div class="ee-testimonial-voice">
+      <button class="ee-voice-btn" aria-label="Play voice review from customer">
+        ▶️ Listen to Voice Review
+      </button>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+<section class="ecm-newsletter-section" role="region" aria-labelledby="ecm-newsletter-title">
+  <div class="ecm-newsletter-container">
+    
+    <!-- Visual/Illustration (optional) -->
+    <div class="ecm-newsletter-visual" aria-hidden="true">
+      <img src="photo/images18.png" alt="" loading="lazy" />
+    </div>
+
+    <!-- Content Area -->
+    <div class="ecm-newsletter-content">
+      <h2 id="ecm-newsletter-title" class="ecm-newsletter-heading">
+        Stay Updated with Exclusive Deals & Drops!
+      </h2>
+      <p class="ecm-newsletter-subheading">
+        Join <strong>10,000+ savvy shoppers</strong> getting insider access to discounts, new arrivals, and trend updates.
+      </p>
+
+      <!-- Form -->
+      <form class="ecm-newsletter-form" aria-label="Newsletter Subscription Form" novalidate>
+        
+        <!-- Email Field Group -->
+        <div class="ecm-newsletter-field-group">
+          <label for="ecm-newsletter-email" class="ecm-newsletter-label">Email address</label>
+          <input 
+            type="email" 
+            id="ecm-newsletter-email" 
+            class="ecm-newsletter-input" 
+            placeholder="you@example.com" 
+            required 
+            aria-required="true"
+            aria-describedby="ecm-newsletter-privacy"
+          />
+        </div>
+
+        <!-- Consent Checkbox -->
+        <div class="ecm-newsletter-checkbox-group">
+          <input type="checkbox" id="ecm-consent" class="ecm-newsletter-checkbox" />
+          <label for="ecm-consent" class="ecm-newsletter-checkbox-label">
+            Yes, I want to receive promotional offers.
+          </label>
+        </div>
+
+        <!-- Honeypot (Spam Protection) -->
+        <div class="ecm-newsletter-honeypot">
+          <label for="ecm-newsletter-hp">Leave this field empty</label>
+          <input type="text" name="website" id="ecm-newsletter-hp" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <!-- CTA Button -->
+        <button type="submit" class="ecm-newsletter-submit" aria-label="Subscribe to newsletter">
+          <span class="ecm-newsletter-btn-text">Subscribe</span>
+          <span class="ecm-newsletter-btn-icon" aria-hidden="true">📩</span>
+        </button>
+
+        <!-- Feedback Message (Live Region) -->
+        <div class="ecm-newsletter-feedback" aria-live="polite" role="status">
+          <!-- Injected dynamically via JS -->
+        </div>
+
+        <!-- Privacy Notice -->
+        <p id="ecm-newsletter-privacy" class="ecm-newsletter-privacy">
+          🔒 We respect your privacy. No spam ever.
+        </p>
+      </form>
+
+      <!-- Optional Subscriber Counter (Bonus Feature) -->
+      <div class="ecm-newsletter-counter" aria-hidden="true">
+        <span class="ecm-newsletter-count-number" data-count-target="10000">10,000+</span> subscribers and growing!
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- E-commerceElite Blog Preview Section -->
+<section class="ee-blog-preview" aria-labelledby="ee-blog-heading">
+  <div class="ee-blog-container">
+    <!-- Section Header -->
+    <header class="ee-blog-header">
+      <h2 id="ee-blog-heading" class="ee-blog-title">Latest Insights & Tips</h2>
+      <p class="ee-blog-subtitle">Discover expert advice, trends, and inspiration from our e-commerce experts.</p>
+    </header>
+
+    <!-- Blog Cards Grid -->
+    <div class="ee-blog-grid">
+
+      <!-- Blog Card -->
+      <article class="ee-blog-card">
+        <div class="ee-blog-image-wrapper">
+          <img src="photo/images19.webp" alt="Top 10 E-commerce Strategies" class="ee-blog-image" loading="lazy" />
+          <span class="ee-blog-badge">Trending</span>
+        </div>
+        <div class="ee-blog-content">
+          <div class="ee-blog-meta">
+            <span class="ee-blog-category">Marketing</span>
+            <time datetime="2025-07-27" class="ee-blog-date">Jul 27, 2025</time>
+            <span class="ee-blog-read-time">• 5 min read</span>
+          </div>
+          <h3 class="ee-blog-heading">Top 10 Strategies to Boost Your E-commerce Sales in 2025</h3>
+          <p class="ee-blog-excerpt">
+            Learn how to implement powerful techniques to drive more traffic, increase conversion rates,
+            and grow your online business.
+          </p>
+          <div class="ee-blog-footer">
+            <div class="ee-blog-author">
+              <img src="photo/images20.jpeg" alt="Author photo" class="ee-blog-author-img" loading="lazy" />
+              <span class="ee-blog-author-name">Jane Doe</span>
+            </div>
+            <a href="#" class="ee-blog-cta">Read More →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Add more <article> blog cards here as needed -->
+
+    </div>
+
+    <!-- Load More Button -->
+    <div class="ee-blog-load-more-wrapper">
+      <button class="ee-blog-load-more" aria-label="Load more blog posts">Load More</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<footer class="ecommerceelite-footer" role="contentinfo" aria-label="Footer">
+  <div class="ecommerceelite-footer__container">
+    <!-- Column 1: Branding & Company Info -->
+    <section class="ecommerceelite-footer__brand" aria-labelledby="footer-brand-title">
+      <h2 id="footer-brand-title" class="ecommerceelite-footer__title">E-commerceElite</h2>
+      <a href="/" class="ecommerceelite-footer__logo-link" aria-label="E-commerceElite Homepage">
+        <!-- Optimized SVG logo inline or referenced -->
+        <svg class="ecommerceelite-footer__logo" role="img" aria-labelledby="footer-logo-title" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" focusable="false">
+          <title id="footer-logo-title">E-commerceElite Logo</title>
+          <text x="0" y="15" font-family="Arial, sans-serif" font-size="18" fill="#2563EB">E-commerceElite</text>
+        </svg>
+      </a>
+      <address class="ecommerceelite-footer__address">
+        123 Elite Avenue,<br />
+        Commerce City, EC 54321<br />
+        <a href="tel:+1234567890" aria-label="Call us at +1 234 567 890">+1 234 567 890</a><br />
+        <a href="mailto:support@ecommerceelite.com" aria-label="Email support">support@ecommerceelite.com</a>
+      </address>
+      <p class="ecommerceelite-footer__copyright">
+        &copy; 2025 E-commerceElite. All rights reserved.
+      </p>
+    </section>
+
+    <!-- Column 2: Navigation -->
+    <nav class="ecommerceelite-footer__nav" aria-labelledby="footer-nav-title">
+      <h3 id="footer-nav-title" class="ecommerceelite-footer__subtitle">Shop</h3>
+      <ul class="ecommerceelite-footer__list">
+        <li><a href="/category/electronics" class="ecommerceelite-footer__link">Electronics</a></li>
+        <li><a href="/category/fashion" class="ecommerceelite-footer__link">Fashion</a></li>
+        <li><a href="/category/home-garden" class="ecommerceelite-footer__link">Home & Garden</a></li>
+        <li><a href="/category/sports" class="ecommerceelite-footer__link">Sports</a></li>
+        <li><a href="/category/beauty" class="ecommerceelite-footer__link">Beauty</a></li>
+      </ul>
+    </nav>
+
+    <!-- Column 3: Customer Support -->
+    <nav class="ecommerceelite-footer__nav" aria-labelledby="footer-support-title">
+      <h3 id="footer-support-title" class="ecommerceelite-footer__subtitle">Customer Support</h3>
+      <ul class="ecommerceelite-footer__list">
+        <li><a href="/faq" class="ecommerceelite-footer__link">FAQ</a></li>
+        <li><a href="/contact" class="ecommerceelite-footer__link">Contact Us</a></li>
+        <li><a href="/returns" class="ecommerceelite-footer__link">Returns & Refunds</a></li>
+        <li><a href="/shipping" class="ecommerceelite-footer__link">Shipping Info</a></li>
+        <li><a href="/terms" class="ecommerceelite-footer__link">Terms of Service</a></li>
+      </ul>
+    </nav>
+
+    <!-- Column 4: Newsletter & Social -->
+    <section class="ecommerceelite-footer__newsletter" aria-labelledby="footer-newsletter-title">
+      <h3 id="footer-newsletter-title" class="ecommerceelite-footer__subtitle">Subscribe to our Newsletter</h3>
+      <form class="ecommerceelite-footer__form" action="#" method="post" novalidate aria-describedby="newsletter-desc">
+        <p id="newsletter-desc" class="ecommerceelite-footer__newsletter-desc">Get the latest deals and updates.</p>
+        <label for="newsletter-email" class="visually-hidden">Email address</label>
+        <input
+          type="email"
+          id="newsletter-email"
+          name="email"
+          class="ecommerceelite-footer__input"
+          placeholder="Your email address"
+          required
+          aria-required="true"
+          aria-describedby="newsletter-error"
+        />
+        <button type="submit" class="ecommerceelite-footer__button" aria-label="Subscribe to newsletter">Subscribe</button>
+        <p id="newsletter-error" class="ecommerceelite-footer__error" aria-live="polite" role="alert"></p>
+      </form>
+      <div class="ecommerceelite-footer__social" aria-label="Social media links">
+        <a href="https://facebook.com/ecommerceelite" class="ecommerceelite-footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <!-- Facebook SVG Icon -->
+          <svg role="img" aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24"><path fill="#4267B2" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.98 3.66 9.11 8.44 9.88v-6.99H7.9v-2.89h2.54v-2.21c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.44 2.89h-2.34v6.99C18.34 21.11 22 16.98 22 12z"/></svg>
+        </a>
+        <a href="https://twitter.com/ecommerceelite" class="ecommerceelite-footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+          <!-- Twitter SVG Icon -->
+          <svg role="img" aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24"><path fill="#1DA1F2" d="M22.46 6c-.77.35-1.6.58-2.46.69a4.28 4.28 0 001.88-2.37c-.82.48-1.73.82-2.7 1a4.27 4.27 0 00-7.29 3.89A12.11 12.11 0 013 5.1a4.27 4.27 0 001.32 5.7c-.67 0-1.3-.2-1.85-.5v.05a4.28 4.28 0 003.43 4.19c-.34.1-.7.15-1.07.15-.26 0-.5-.03-.74-.07a4.28 4.28 0 003.99 2.97A8.56 8.56 0 012 19.54 12.07 12.07 0 008.29 21c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53A8.33 8.33 0 0022.46 6z"/></svg>
+        </a>
+        <a href="https://instagram.com/ecommerceelite" class="ecommerceelite-footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <!-- Instagram SVG Icon -->
+          <svg role="img" aria-hidden="true" focusable="false" width="24" height="24" viewBox="0 0 24 24"><path fill="#C13584" d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5A3.75 3.75 0 0020 16.25v-8.5A3.75 3.75 0 0016.25 4h-8.5zm8.13 1.5a1.12 1.12 0 110 2.25 1.12 1.12 0 010-2.25zm-4.13 1.12a4.88 4.88 0 110 9.75 4.88 4.88 0 010-9.75zm0 2a2.88 2.88 0 100 5.75 2.88 2.88 0 000-5.75z"/></svg>
+        </a>
+      </div>
+      <!-- Bonus: Language Selector -->
+      <div class="ecommerceelite-footer__language-select" aria-label="Select language">
+        <label for="language-select" class="visually-hidden">Select language</label>
+        <select id="language-select" name="language" class="ecommerceelite-footer__language-dropdown" aria-haspopup="listbox" aria-expanded="false">
+          <option value="en" selected>English</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="zh">中文</option>
+        </select>
+      </div>
+    </section>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="ecommerceelite-footer__back-to-top" aria-label="Back to top" type="button">
+    ↑ Top
+  </button>
+
+  <!-- Bonus: Live Chat Toggle -->
+  <button class="ecommerceelite-footer__live-chat-toggle" aria-label="Open live chat support" type="button">
+    Chat
+  </button>
+</footer>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Jane Doe"
+      },
+      "reviewBody": "Absolutely love the product! Delivery was fast, and the quality is top-notch. I’ll definitely be ordering again."
+    }
+  </script>
+  <!-- ✅ Scripts (loaded defer to optimize performance) -->
+  <script src="script.js" defer></script>
+</body>
+</html>
